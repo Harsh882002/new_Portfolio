@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { MdRestaurantMenu } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 
 
 export const Headers = () => {
@@ -12,18 +13,19 @@ export const Headers = () => {
 
     return (
         <>
-            <div className="sm:hidden flex justify-start ml-2 mt-2 ">
+            <div className="sm:hidden flex justify-start ml-2 pt-2 ">
                 <MdRestaurantMenu className="text-red-500 w-8 h-8 cursor-pointer " onClick={handleMenu} />
             </div>
 
 
             <ul className={`${
           menu ? "block" : "hidden "
-        } pl-2  mt-2 font-mono sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}>
-                <li className="mr-3 mt-3">Home</li>
-                <li className="mr-3 mt-3">About</li>
-                <li className="mr-3 mt-3">Projects</li>
-                <li className="mr-3 mt-3">Contact</li>
+        } pl-2 font-mono sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}>
+                <li className="mr-3 mt-3"><NavLink to="/">Home</NavLink></li>
+                <li className="mr-3 mt-3"><NavLink to="/about">About</NavLink></li>
+                <li className="mr-3 mt-3"><NavLink to="/projects">Projects</NavLink></li>
+                <li className="mr-3 mt-3"><NavLink to="gallery">Gallery</NavLink></li>
+                <li className="mr-3 mt-3"><NavLink to="contact">Contact</NavLink></li>
             </ul>
 
 

@@ -1,12 +1,12 @@
 import './app.css'
- import { Headers } from "./header/Header";
+import { AllRoute } from './router/allRoute/AllRoute';
 
   const App = () =>{
 
   return(
-    <div className="bg-[url('/bg1.gif')]  bg-center h-screen">
-<Headers />
-  </div>
+   <>
+   <AllRoute />
+   </>
   )
 }
 
