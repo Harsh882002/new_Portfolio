@@ -2,9 +2,14 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    
+    <div className='text-white'>
+<div className='grid place-items-center '>
+  <img src="harsh.JPG" alt="" />
+</div>
     </div>
+      
+    
   )
 }
 

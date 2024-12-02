@@ -5,7 +5,9 @@ import { AllRoute } from './router/allRoute/AllRoute';
 
   return(
    <>
-   <AllRoute />
+   <div className="bg-[rgb(13,7,27)]  w-full h-screen  ">
+    <AllRoute />
+   </div>
    </>
   )
 }
