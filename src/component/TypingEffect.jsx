@@ -4,10 +4,9 @@ import { useEffect, useState } from "react"
 export const SetTypingEffect = () => {
 
     const data = [
-         
         "A developer skilled in JavaScript, React, and full-stack development 💻.",
         "I build responsive web applications and teach students through college sessions 📚.",
-        "Let’s connect and create something amazing! 🚀"
+        "Let’s connect and create something amazing! 🚀",
     ];
     const [displayText, setDisplayText] = useState("");
     const [lineIndex, setLineIndex] = useState(0);
@@ -20,15 +19,16 @@ export const SetTypingEffect = () => {
                 const timeout = setTimeout(() => {
                     setDisplayText((prev) => prev + data[lineIndex][charIndex]);
                     setCharIndex((prev) => prev + 1);
-                }, 1)
+                }, 100)
                 return () => clearTimeout(timeout);
             } else {
 
                 const lineTimeOut = setTimeout(() => {
-                    setDisplayText((prev) => prev + "\n");
+                    setDisplayText((prev) => prev + "\n"); 
                     setLineIndex((prev) => prev + 1);
                     setCharIndex(0);
-                }, 2)
+                }, 1000);
+                return () => clearTimeout(lineTimeOut);
             }
         }
     }, [charIndex, lineIndex, data]);
@@ -36,11 +36,12 @@ export const SetTypingEffect = () => {
 
     return (
         <>
-            <div className="w-1/2 mt-20 text-white ml-10 "  >
-            <h2>hello world , it's mee </h2>
-            <h1 className="font-extrabold "> Harsh Patle</h1>
-
-                <h1>{displayText}</h1>
+            <div className="text-white mt-5 ml-3 sm:w-1/2 mt-20 sm:text-white ml-10 sm:mt-20 "  >
+            <h2 className="text-xs font-mono ">hello world , it's mee </h2> 
+            <h1 className=" sm:font-extrabold sm:text-white text-xl ml-28"> Harsh Patle</h1>
+             
+<br />
+                <pre className="text-xs font-parkinsans whitespace-pre-line">{displayText}</pre>
             </div>
 
           
