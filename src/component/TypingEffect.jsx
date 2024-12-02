@@ -38,10 +38,10 @@ export const SetTypingEffect = () => {
         <>
             <div className="text-white mt-5 ml-3 sm:w-1/2 mt-20 sm:text-white ml-10 sm:mt-20 "  >
             <h2 className="text-xs font-mono ">hello world , it's mee </h2> 
-            <h1 className=" sm:font-extrabold sm:text-white text-xl ml-28"> Harsh Patle</h1>
+            <h1 className=" font-permanentMarker ml-4 text-xxl sm:font-extrabold sm:text-white text-xxl sm:ml-28"> Harsh Patle</h1>
              
 <br />
-                <pre className="text-xs font-parkinsans whitespace-pre-line">{displayText}</pre>
+                <pre className="text-xxs font-parkinsans whitespace-pre-line">{displayText}</pre>
             </div>
 
           
