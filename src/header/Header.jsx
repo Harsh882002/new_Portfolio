@@ -20,12 +20,12 @@ export const Headers = () => {
 
             <ul className={`${
           menu ? "block" : "hidden "
-        } pl-2 font-mono sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}>
-                <li className="mr-3 mt-3"><NavLink to="/">Home</NavLink></li>
-                <li className="mr-3 mt-3"><NavLink to="/about">About</NavLink></li>
-                <li className="mr-3 mt-3"><NavLink to="/projects">Projects</NavLink></li>
-                <li className="mr-3 mt-3"><NavLink to="gallery">Gallery</NavLink></li>
-                <li className="mr-3 mt-3"><NavLink to="contact">Contact</NavLink></li>
+        } pl-2 font-mono text-sm sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}>
+                <li className="font-parkinsans mr-3 mt-3 "><NavLink to="/">Home</NavLink></li>
+                <li className=" font-parkinsan mr-3 mt-3"><NavLink to="/about">About</NavLink></li>
+                <li className="font-parkinsans mr-3 mt-3"><NavLink to="/projects">Projects</NavLink></li>
+                <li className="font-parkinsans mr-3 mt-3"><NavLink to="gallery">Gallery</NavLink></li>
+                <li className="font-parkinsans mr-3 mt-3"><NavLink to="contact">Contact</NavLink></li>
             </ul>
 
 
