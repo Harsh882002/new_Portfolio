@@ -41,7 +41,7 @@ export const SetTypingEffect = () => {
             <h1 className=" font-permanentMarker ml-4 text-xxl sm:font-extrabold sm:text-white text-xxl sm:ml-28"> Harsh Patle</h1>
              
 <br />
-                <pre className="text-xxs font-parkinsans whitespace-pre-line">{displayText}</pre>
+                <pre className="text-xxs font-parkinsans whitespace-pre-line sm:text-l">{displayText}</pre>
             </div>
 
           

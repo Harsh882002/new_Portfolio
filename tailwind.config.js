@@ -14,8 +14,8 @@ export default {
       },
 
       fontSize: {
-        'xxs': '10px',  
-        'xxl': '36px',  
+        'xxs': '25px',  
+        'xxl': '56px',  
         '3xl': '48px',   
       },
     },

@@ -5,7 +5,7 @@ const Home = () => {
   return (
     
     <>
-<div className= " sm:flex flex-row-reverse">
+<div className= "z sm:flex flex-row-reverse">
   
 
 
