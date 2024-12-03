@@ -4,9 +4,9 @@ import { useEffect, useState } from "react"
 export const SetTypingEffect = () => {
 
     const data = [
-        "A developer skilled in JavaScript, React, and full-stack development 💻.",
-        "I build responsive web applications and teach students through college sessions 📚.",
-        "Let’s connect and create something amazing! 🚀",
+        "😎 A developer skilled in JavaScript, React, and full-stack development 💻.",
+        "😎 I build responsive web applications and teach students through college sessions 📚.",
+        "😎 Let’s connect and create something amazing! 🚀",
     ];
     const [displayText, setDisplayText] = useState("");
     const [lineIndex, setLineIndex] = useState(0);
