@@ -11,13 +11,24 @@ export default {
         parkinsans: ['Parkinsans', 'sans-serif'],  
         poppins : ['Poppins','sans-serif'],
         permanentMarker: ['"Permanent Marker"', 'cursive'],
+        orbit: ['Orbit', 'sans-serif'],
       },
 
       fontSize: {
-        'xxs': '25px',  
-        'xxl': '56px',  
-        '3xl': '48px',   
+        'xxs': '20px', 
+        'xxl': '66px',  
+        '3xl': '38px',   
       },
+
+      animation: {
+        'up-down': 'upDown 2s ease-in-out infinite',
+      },
+      keyframes: {
+        upDown: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      }
     },
   },
   plugins: [],
