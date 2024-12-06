@@ -1,0 +1,102 @@
+{
+    "skills": {
+        "Frontend": [
+            {
+                "name": "HTML5",
+                "image": "skills/image.png"
+                 
+            },
+            {
+                "name": "CSS3",
+                "image": "skills/css.png"
+            },
+            {
+                "name": "JavaScript",
+                "image": "skills/javascript.png"
+                
+            },
+            {
+                "name": "Bootstrap",
+                "image": "skills/bootstrap.png"
+               
+            },
+            {
+                
+                "name": "Tailwind",
+                "image": "skills/tailwind.png"
+            },
+            {
+                "name": "React",
+                "image": "skills/react.png"
+                
+            }
+        ],
+        "Backend": [
+            {
+                "name": "Node.js",
+                "image": "skills/nodejs.png"
+        
+            },
+            {
+                "name": "PHP",
+                "image": "skills/php.png"
+            }
+        ],
+        "Database": [
+            {
+                "name": "MySQL",
+                "image": "skills/mysql.png"
+            },
+            {
+                "name": "MongoDB",
+                "image": "skills/MongoDB.png"
+            },
+            {
+                "name": "Redis",
+                "image": "skills/redis.png"
+            }
+        ],
+        "Tools": [
+            {
+                "name": "Git",
+                "image": "skills/git.png"
+            },
+            {
+                "name": "Linux",
+                "image": "skills/Linux.png"
+            },
+            {
+                "name": "GitHub",
+                "image": "skills/github.png"
+            },
+            {
+                "name": "Postman",
+                "image": "skills/postman.png"
+            },
+            {
+                "name": "VS Code",
+                "image": "skills/vscode.png"
+            }
+        ],
+        "Communication":[
+            {
+                "name": "slack",
+                "image": "skills/slack.png"
+            },
+            {
+                "name": "Meet",
+                "image": "skills/meet.png"
+            },
+            {
+                "name": "Zoom",
+                "image": "skills/zoom.webp"
+            }
+        ],
+        "Design":[
+            {
+                "name": "Canva",
+                "image": "skills/canva.png"
+            }
+        ]
+    }
+}
