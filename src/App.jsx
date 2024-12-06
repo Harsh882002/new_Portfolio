@@ -7,7 +7,8 @@ import { AllRoute } from './router/allRoute/AllRoute';
    <>
    <div className="bg-[rgb(13,7,27)]  h-full sm:w-full sm:h-full text-white ">
     <AllRoute />
-   </div>
+   </div> 
+   
    </>
   )
 }
