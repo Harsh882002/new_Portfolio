@@ -11,17 +11,18 @@ const Contact = () => {
     Your VISON, <br /> my EXPERTIES, <br /> and COFEE☕
      </div>
 
-    <div >
+    <div  className=''>
       <h1 className='justify-center text-center mt-20 text-xl font-extrabold '>I'M ALWAYS INTERESTED ABOUT</h1>
     
-  <ul className='mt-4 grid grid-cols-2 ml-8 gap-5'>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white '>Front Developmet</li>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white'>React</li>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white'>Backend Developmnet</li>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white'>New Opportunities</li>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white'>Coffee</li>
-    <li className='w-auto h-auto  border-4 text-center rounded  border-white'>Space</li>
-  </ul>
+ <ul className="mt-4 grid grid-cols-2  mr-3 text-center ml-4 gap-5 list-none p-0 mb-14">
+  <li className="rounded-full border border-orange-500 p-2 ]">FrontEnd Development</li>
+  <li className="rounded-full border border-orange-500 p-2">Backend Development</li>
+  <li className="rounded-full border border-orange-500 p-2">React</li>
+  <li className="rounded-full border border-orange-500 p-2">New Opportunities</li>
+  <li className="rounded-full border border-orange-500 p-2">Coffee</li>
+  <li className="rounded-full border border-orange-500 p-2">Space</li>
+</ul>
+
     
     </div>
    </section>
