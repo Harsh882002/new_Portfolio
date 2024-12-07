@@ -15,12 +15,26 @@ const Contact = () => {
       <h1 className='justify-center text-center mt-20 text-xl font-extrabold '>I'M ALWAYS INTERESTED ABOUT</h1>
     
  <ul className="mt-4 grid grid-cols-2  mr-3 text-center ml-4 gap-5 list-none p-0 mb-14">
-  <li className="rounded-full border border-orange-500 p-2 ]">FrontEnd Development</li>
-  <li className="rounded-full border border-orange-500 p-2">Backend Development</li>
-  <li className="rounded-full border border-orange-500 p-2">React</li>
-  <li className="rounded-full border border-orange-500 p-2">New Opportunities</li>
-  <li className="rounded-full border border-orange-500 p-2">Coffee</li>
-  <li className="rounded-full border border-orange-500 p-2">Space</li>
+  <li className="rounded-full border border-orange-500 p-2 ]">
+    <button>FrontEnd Development</button>
+    </li>
+  <li className="rounded-full border border-orange-500 p-2">
+    <button>Backend Development</button>
+    </li>
+  <li className="rounded-full border border-orange-500 p-2">
+    <button>React</button>
+    
+    </li>
+  <li className="rounded-full border border-orange-500 p-2">
+    <button>New Opportunities</button>
+    </li>
+  <li className="rounded-full border border-orange-500 p-2">
+    <button>Coffee</button>
+    </li>
+  <li className="rounded-full border border-orange-500 p-2">
+    <button>Space</button>
+    </li>
+  
 </ul>
 
     

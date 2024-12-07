@@ -16,13 +16,23 @@ export const Headers = () => {
                     className="text-red-500 w-8 h-8 cursor-pointer"
                     onClick={handleMenu}
                 />
-            </div>
+                    </div>
+
+
+<div>
+     
+
+    <div>
+        
+    </div>
+</div>
 
             <ul
                 className={`${
                     menu ? "block" : "hidden"
-                } pl-2 font-mono text-xl h-14 sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}
+                } pl-2 font-mono text-xl h-14  sm:flex flex-col sm:flex-row gap-2 text-white justify-end`}
             >
+
                 <li className="font-parkinsans mr-5 mt-4">
                     <a href="#home">Home</a>
                 </li>
@@ -39,6 +49,8 @@ export const Headers = () => {
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+            
         </>
+
     );
 };
