@@ -19,7 +19,6 @@ const Gallery = () => {
     '/gallery/g8.jpg',
     '/gallery/g9.jpg',
     '/gallery/g10.jpg',
-    '/gallery/g11.png'
   ]
 
 
