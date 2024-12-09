@@ -36,8 +36,15 @@ const Contact = () => {
     </li>
 </ul>
 <hr />
-<h1 className='mt-4 text-center font-xl'>MINDING A PROJECT? <span>contact me</span></h1> 
-
+<h1 className='mt-4 text-center text-lg font-extrabold mb-4 '>MINDING A PROJECT? <span className='ml-4 font-light  font-orbit text-orange-500'> cOnTact me</span></h1> 
+<hr />
+<ul className='grid grid-cols-2  text-center gap-5 mt-5 font-semibold text-lg font-roboto '>
+  <li><a href="https://github.com/Harsh882002" target='_blank'>GITHUB</a></li>
+  <li><a href="    https://www.linkedin.com/in/harsh-patle-0ab840222/" target='_blank'>LINKEDIN</a></li>
+  <li><a href="">X [ TWITTER ]</a></li>
+  <li><a href="    https://www.instagram.com/itss_harsh02/" target='_blank'>INSTAGRAM</a></li>
+   
+</ul>
     
     </div>
    </section>
