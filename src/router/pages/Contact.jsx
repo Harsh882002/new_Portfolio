@@ -41,7 +41,7 @@ const Contact = () => {
 <ul className='grid grid-cols-2  text-center gap-5 mt-5 font-semibold text-lg font-roboto '>
   <li><a href="https://github.com/Harsh882002" target='_blank'>GITHUB</a></li>
   <li><a href="    https://www.linkedin.com/in/harsh-patle-0ab840222/" target='_blank'>LINKEDIN</a></li>
-  <li><a href="">X [ TWITTER ]</a></li>
+  <li><a href="">X[ TWITTER ]</a></li>
   <li><a href="    https://www.instagram.com/itss_harsh02/" target='_blank'>INSTAGRAM</a></li>
    
 </ul>
