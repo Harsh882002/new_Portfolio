@@ -4,6 +4,7 @@ import { Connection } from '../../component/Connection'
 import About from './About'
 import Gallery from './Gallery'
 import Contact from './Contact'
+import Projects from './Projects'
 
 const Home = () => {
   return (
@@ -37,6 +38,9 @@ hover:drop-shadow-[0_0_10px_rgba(0,0,255,1)]  ">Get My RESUME</button></a>
 
       <hr className="mt-6 text-yellow-500 drop-shadow-[0_0_20px_yellow]"/>
 
+      <section>
+        <Projects />
+      </section>
       <section id='gallery'>
         <Gallery />
       </section>
