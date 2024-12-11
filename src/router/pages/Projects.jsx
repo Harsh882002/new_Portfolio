@@ -1,10 +1,14 @@
 import React from 'react'
+import { ImpoProjects } from '../../component/ImpoProject'
 
 const Projects = () => {
   return (
-    <div >
-      <h1>Projects</h1>
-    </div>
+    <>
+    
+    
+
+    <ImpoProjects />
+    </>
   )
 }
 
