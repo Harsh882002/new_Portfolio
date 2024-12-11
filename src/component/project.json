@@ -1,0 +1,31 @@
+[
+    {
+      "image": "crud_application.png",
+      "heading": "CRUD Application in PHP and MySQL",
+      "description": "Designed and implemented a CRUD application enabling Create, Read, Update, and Delete operations. Integrated features like pagination, sorting, user authentication, and input validation for enhanced functionality and security.",
+      "skills": ["PHP", "MySQL", "Authentication", "Validation", "Pagination", "Sorting"],
+      "visitLink": "https://yourdomain.com/crud-application"
+    },
+    {
+      "image": "todo_app.png",
+      "heading": "To-Do Application in React",
+      "description": "Built a responsive To-Do application using React, enabling task management with features like adding, editing, deleting, and updating statuses to enhance user experience.",
+      "skills": ["React", "Task Management", "Responsive Design", "State Management"],
+      "visitLink": "https://yourdomain.com/todo-app"
+    },
+    {
+      "image": "pokemon_api.png",
+      "heading": "Pokemon API Data Fetching in React",
+      "description": "Developed a React application that fetches and displays data from an external API, implementing features like dynamic data loading, error handling, and a responsive interface to improve user interaction.",
+      "skills": ["React", "API Integration", "Dynamic Data Loading", "Error Handling", "Responsive Design"],
+      "visitLink": "https://yourdomain.com/pokemon-api"
+    },
+    {
+      "image": "movie_clone.png",
+      "heading": "Movie Clone Website in React",
+      "description": "Developed a movie clone website in React, using an external API for dynamic movie data fetching and React Router for smooth page navigation. Implemented a responsive design to enhance user interaction and ensure seamless content delivery.",
+      "skills": ["React", "API Integration", "React Router", "Responsive Design"],
+      "visitLink": "https://yourdomain.com/movie-clone"
+    }
+  ]
+  
