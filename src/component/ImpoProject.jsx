@@ -3,10 +3,11 @@ import project from './project.json';
 export const ImpoProjects = () => {
   return (
     <>
-      <ul className="w-96 h-1/2">
-        <li>
+    <div className='w-4/5'>
+      <ul className="w-screen h-1/2     ">
+        <li className='sm:grid grid-cols-2 gap-9 sm:mr-14 ml-14 mt-10 mb-14'>
         {project.map((curElem, key) => (
-          <div key={key} >
+          <div key={key}  >
             <img src={curElem.image} alt={curElem.heading} className='mt-5' />
             <div className='bg-black'>
             <h1 className="text-center font-parkinsans mt-4 p-3" >{curElem.heading}</h1>
@@ -26,6 +27,7 @@ export const ImpoProjects = () => {
         ))}
         </li>
       </ul>
+      </div>
     </>
   );
 };
