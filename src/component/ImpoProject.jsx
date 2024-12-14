@@ -14,7 +14,7 @@ export const ImpoProjects = () => {
             <p className="text-justify p-2 m-2 ">{curElem.description}</p>
             <ul className='grid grid-cols-3 mr-8 ml-8 gap-2 mb-4'>
               {curElem.skills.map((skill, index) => (
-                <li key={index} className='bg-orange-500 text-center'>{skill}</li>
+                <li key={index} className='bg-orange-500 text-center '>{skill}</li>
               ))}
             </ul>
             <p>
@@ -24,6 +24,7 @@ export const ImpoProjects = () => {
             </p>
           </div>
           </div>
+
         ))}
         </li>
       </ul>
