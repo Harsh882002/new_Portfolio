@@ -5,7 +5,7 @@ export const ImpoProjects = () => {
     <>
     <div className='w-4/5'>
       <ul className="w-screen h-1/2     ">
-        <li className='sm:grid grid-cols-2 gap-9 sm:mr-14 ml-14 mt-10 mb-14'>
+        <li className='mr-5 ml-5 sm:grid grid-cols-2 gap-9 sm:mr-14 ml-14 mt-10 mb-14'>
         {project.map((curElem, key) => (
           <div key={key}  >
             <img src={curElem.image} alt={curElem.heading} className='mt-5' />
