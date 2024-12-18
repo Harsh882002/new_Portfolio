@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "/projects/image.png",
+      "image": "/projects/crud.png",
       "heading": "CRUD Application in PHP and MySQL",
       "description": "Designed and implemented a CRUD application enabling Create, Read, Update, and Delete operations. Integrated features like pagination, sorting, user authentication, and input validation for enhanced functionality and security.",
       "skills": ["PHP", "MySQL", "Authentication", "Validation", "Pagination", "Sorting"],
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "/projects/image.png",
+      "image": "/projects/pokemon.png",
       "heading": "Pokemon API Data Fetching in React",
       "description": "Developed a React application that fetches and displays data from an external API, implementing features like dynamic data loading, error handling, and a responsive interface to improve user interaction.",
       "skills": ["React", "API Integration", "Dynamic Data Loading", "Error Handling", "Responsive Design"],
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "image": "/projects/image.png",
+      "image": "/projects/movie.png",
       "heading": "Movie Clone Website in React",
       "description": "Developed a movie clone website in React, using an external API for dynamic movie data fetching and React Router for smooth page navigation. Implemented a responsive design to enhance user interaction and ensure seamless content delivery.",
       "skills": ["React", "API Integration", "React Router", "Responsive Design"],
