@@ -7,7 +7,7 @@ const Contact = () => {
     {/* <h1 className='justify-center text-center mt-6  text-xsx font-permanentMarker'>Contact ME</h1> */}
    <section className=' mt-9 sm:flex  '>
     <div className="sm:w-1/2 sm:text-9xl text-6xl text-center h-2/4 font-mono
-     font-extrabold bg-[url('background/text-bg2.png')] bg-cover bg-clip-text text-transparent sm:mt-4 ">
+     font-extrabold  text-white sm:mt-4 ">
     Your VISON, <br /> my EXPERTIES, <br /> and COFEE☕
      </div>
 
