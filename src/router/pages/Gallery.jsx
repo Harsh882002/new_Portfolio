@@ -32,7 +32,7 @@ const Gallery = () => {
         pagination={{ clickable: true }}
         navigation={true}
         loop={true}
-        className=" mt-9   border-4 border-dotted border-orange-500 h-auto overflow-hidden bg-black drop-shadow-[0_0_10px_white]  sm:w-1/2  sm:h-1/2cd" >
+        className=" mt-8   border-4 border-dotted border-orange-500 h-auto overflow-hidden bg-black drop-shadow-[0_0_10px_white]  sm:w-1/2  sm:h-1/2cd" >
 
         {
           images.map((image, index) => (
@@ -44,8 +44,8 @@ const Gallery = () => {
 
       </Swiper>
 
-      <h2 className="text-center justify-center font-bold sm:text-xsx">DURING SESSION IMAGES </h2>
-      <hr className="text-red-500" />
+      <h2 className="text-center justify-center font-bold sm:text-xsx">DURING SESSIONS IMAGES </h2>
+      <hr className="text-red-600" />
 
     </>
   )
