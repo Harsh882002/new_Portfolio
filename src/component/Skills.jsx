@@ -9,7 +9,7 @@ export const Skills = () => {
                     <div key={category} className="">
                         <h1 className="mt-5 mb-5 ml-3  text-orange-400 font-roboto text-xxs ">{category}</h1>
                         <div className="grid grid-cols-3 ml-9 mr-9 sm:flex  gap-9">
-                            {
+                            {   
                                 skills.map(skill => (
                                     // drop-shadow-[0_0_80px_rgba(100,100,250,1)]
                                     <div key={skill.name}>
@@ -22,6 +22,7 @@ export const Skills = () => {
                     </div>
                 ))
             }
+            
 
             <div>
                 <h1 className="mt-7 ml-4 text-orange-500 font-roboto text-xxs ">💁Soft Skills</h1>
