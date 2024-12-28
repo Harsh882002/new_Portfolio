@@ -8,8 +8,8 @@ const Projects = () => {
     <ImpoProjects />
     <hr className="text-yellow-400 drop-shadow-[0_0_20px_yellow]"  />
 
-    </>
+    </> 
   )
-}
+} 
 
 export default Projects

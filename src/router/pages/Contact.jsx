@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react' 
 
 const Contact = () => {
   return (
     <>
     
     {/* <h1 className='justify-center text-center mt-6  text-xsx font-permanentMarker'>Contact ME</h1> */}
-   <section className=' mt-9 sm:flex  '>
+   <section className=' mt-8 sm:flex  '>
     <div className="sm:w-1/2 sm:text-9xl text-6xl text-center h-2/4 font-mono
      font-extrabold  text-white sm:mt-4 ">
     Your VISON, <br /> my EXPERTIES, <br /> and COFEE☕
@@ -14,7 +14,7 @@ const Contact = () => {
     <div  className=''>
       <h1 className='justify-center text-center mt-20 text-xl font-permanentMarker  '>I'M ALWAYS INTERESTED ABOUT</h1>
     
- <ul className="mt-4 grid grid-cols-2 sm:grid-cols-3  mr-3 text-center ml-4 gap-6 list-none p-0 mb-14 sm:ml-14">
+ <ul className="mt-5 grid grid-cols-2 sm:grid-cols-3  mr-3 text-center ml-4 gap-6 list-none p-0 mb-14 sm:ml-14">
   <li >
     <button className="rounded-full border border-orange-500 p-2 drop-shadow-[0_0_10px_whitee] ">FrontEnd Development</button>
     </li>
