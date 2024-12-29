@@ -44,7 +44,7 @@ const Gallery = () => {
 
       </Swiper>
 
-      <h2 className="text-center justify-center font-bold sm:text-xsx">DURING SESSIONS IMAGES </h2>
+      <h2 className="text-center justify-center font-bold sm:text-xsx">DURING SESSIONS   IMAGES </h2>
       <hr className="text-red-600" />
 
     </>
