@@ -19,7 +19,7 @@ const Home = () => {
       </div>
 
       <div className="">
-        <a href="/resume/dev_Harsh_Resume.pdf " target='_blank' rel="noopener noreferrer" className="">
+        <a href="https://drive.google.com/file/d/17yBeZk_YH0Yq437o4NMrV6dJzjrvILwe/view?usp=sharing " target='_blank' rel="noopener noreferrer" className="">
           <button className=" w-40 mt-8 ml-5 sm:w-40 h-12 sm:ml-36 sm:mt-0 font-parkinsans bg-orange-700 
 border-2 border-white rounded-3xl text-white drop-shadow-[0_0_10px_white] animate-up-down 
 transition transform hover:translate-y-[-5px] hover:scale-100  
