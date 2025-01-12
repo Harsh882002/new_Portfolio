@@ -17,9 +17,8 @@ export const ImpoProjects = () => {
                 <li key={index} className='border-4 font-bold border-orange-500 text-center rounded w-30 mb-5 '>{skill}</li>
               ))}
             </ul>
-            <p>
-               
-               
+            <p className='text-center font-parkinsans mb-4'>   
+                <a href={curElem.visitLink}>Visit My Project</a>
             </p>
           </div>
           </div>

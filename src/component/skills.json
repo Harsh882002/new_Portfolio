@@ -37,6 +37,11 @@
                 "image": "skills/nodejs.png"
         
             },
+            
+            {
+                "name": "JAVA",
+                "image": "skills/java.png"
+            },
             {
                 "name": "PHP",
                 "image": "skills/php.png"
