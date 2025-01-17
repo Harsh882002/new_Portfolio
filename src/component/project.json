@@ -27,11 +27,11 @@
      },
     {
       "id": 4,
-      "image": "/projects/let's_chat.png",
-      "heading": "Chat Application in MERN STACK",
+      "image": "/projects/let's_chat.png ",
+      "heading": "Chat Application in MERN STACK  ",
       "description": "A MERN chat app uses React for the frontend, Node.js and Express with Socket.IO for real-time messaging, and MongoDB for storing messages. It supports typing indicators, user authentication, and real-time updates for a seamless communication experience.",
-      "skills": ["React", "Node.js", "Express.js", "MongoDB"],
-      "visitLink": "https://chatkare.onrender.com"
+      "skills": ["React", "Node.js", "Express.js", "MongoDB "],
+      "visitLink": "https://chatkare.onrender.com "
     }
   ]
   
