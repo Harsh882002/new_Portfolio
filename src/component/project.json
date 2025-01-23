@@ -6,7 +6,7 @@
       "heading": "To-Do Application in React",
       "description": "Built a responsive To-Do application using React, enabling task management with features like adding, editing, deleting, and updating statuses to enhance user experience.",
       "skills": ["React", "Task Management", "Responsive Design", "State Management"],
-      "visitLink": "https://yourdomain.com/todo-app"
+      "visitLink": "todo"
     },
     {
       "id": 2,
