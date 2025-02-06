@@ -32,6 +32,15 @@
       "description": "A MERN chat app uses React for the frontend, Node.js and Express with Socket.IO for real-time messaging, and MongoDB for storing messages. It supports typing indicators, user authentication, and real-time updates for a seamless communication experience.",
       "skills": ["React", "Node.js", "Express.js", "MongoDB "],
       "visitLink": "https://chatkare.onrender.com "
+    },
+    {
+      "id": 4,
+      "image": "/projects/encryption.png",
+      "heading": "File Encryption and Decryption Application",
+      "description": "Developed a file encryption and decryption application in Spring Boot to secure sensitive data. Implemented AES encryption algorithm for file security and created a RESTful API for handling encryption and decryption operations.",
+      "skills": ["Spring Boot", "REST API", "AES Encryption", "Java"],
+      "visitLink": "https://encryptdecrypt-rho.vercel.app"
     }
+    
   ]
   

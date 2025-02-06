@@ -39,12 +39,8 @@
             },
             
             {
-                "name": "JAVA",
-                "image": "skills/java.png"
-            },
-            {
-                "name": "PHP",
-                "image": "skills/php.png"
+                "name": "Spring Boot",
+                "image": "skills/spring.png"
             }
         ],
         "Database": [

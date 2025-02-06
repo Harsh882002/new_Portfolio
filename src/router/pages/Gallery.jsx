@@ -16,15 +16,15 @@ const Gallery = () => {
     '/gallery/g5.jpg',
     '/gallery/g6.jpg',
     '/gallery/g7.jpg',
-    '/gallery/g8.jpg',
-    '/gallery/g9.jpg',
+    
     '/gallery/g10.jpg',
+    '/gallery/g12.jpg',
+    '/gallery/g13.jpg',
+    '/gallery/g14.jpg',
   ]
-
 
   return (
     <>
-
       <h1 className="justify-center text-center mt-6  text-xsx font-permanentMarker">  MY Gallery </h1>
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}

@@ -18,7 +18,7 @@ export const ImpoProjects = () => {
               ))}
             </ul>
             <p className='text-center font-parkinsans mb-4'>   
-                <a href={curElem.visitLink}>Visit My Project</a>
+                <a href={curElem.visitLink} target='_blank'>Visit My Project</a>
             </p>
           </div>
           </div>
